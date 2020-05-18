@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../components/main_drawer.dart';
 
 class SettingsScreen extends StatelessWidget {
   @override
@@ -7,6 +8,7 @@ class SettingsScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Configurações'),
       ),
+      drawer: MainDrawer(),
       body: Center(
         child: Text('conifig'),
       ),
